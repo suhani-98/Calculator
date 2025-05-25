@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A19C96;
+}
+
+.calculator {
+    border-radius: 0.5rem;
+    border: 1px solid #CCC5B9;
+    padding: 20px;
+    background-color: #252422;
+    box-shadow:#CCC5B9 0.5;
+
+}
+
+input {
+     padding: 24px;
+     width: 320px;
+     border: none;
+     margin: 10px;
+     background-color: #403D39;
+     font-size: 40px;
+     text-align: right;
+     cursor: pointer;
+     border-radius: 0.5rem;
+     color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button{
+    width: 60px;
+    border: none;
+    height: 60px;
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: #403D39;
+    color: #FFFCF2;
+
+}
+
+.operator {
+ color: #849324;
+ font-size: large;
+}
+
+
